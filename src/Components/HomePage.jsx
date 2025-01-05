@@ -18,20 +18,20 @@ const HomePage = () => {
          <motion.img
          initial={{ x: 100, opacity:0 }} 
          animate={{ x:0, opacity:1}}
-         transition={{duration:0.5,delay:1}}
+         transition={{duration:1,delay:1.2}}
             src={girl}
-            className=" rounded-lg shadow-2xl w-full "
+            className=" rounded-full shadow-2xl w-full "
           />
          </div>
           <div className='flex-1'>
             <motion.h1  initial={{ x: -100, opacity:0 }} 
              animate={{ x:0, opacity:1}}
-             transition={{duration:0.5,delay:1}}
+             transition={{duration:0.5,delay:0}}
             className="text-4xl font-thin md:text-6xl">Jannatun Fima</motion.h1>
             <motion.h3
             initial={{ x: -100, opacity:0 }} 
             animate={{ x:0, opacity:1}}
-            transition={{duration:0.5,delay:1}}
+            transition={{duration:0.5,delay:0.5}}
             className='bg-gradient-to-r to-purple-800  via-slate-400  from-pink-300 bg-clip-text tracking-tight text-transparent md:text-2xl text-xl md:mt-8 mt-5'>Frontend Developer</motion.h3>
             <motion.p
             initial={{ x: -100, opacity:0 }} 
@@ -43,7 +43,7 @@ const HomePage = () => {
                 <motion.div
                 initial={{ x: -100, opacity:0 }} 
                 animate={{ x:0, opacity:1}}
-                transition={{duration:0.5,delay:1}}
+                transition={{duration:0.5,delay:1.3}}
                 className='mb-5 flex gap-3 text-2xl'>
                     <a href="https://www.facebook.com/alexmafi.chowdhury.3"> <FaFacebook /></a>
                     <a href="https://github.com/jannatun67"><FaGithub /></a>
@@ -51,7 +51,7 @@ const HomePage = () => {
            <motion.a 
            initial={{ x: -100, opacity:0 }} 
            animate={{ x:0, opacity:1}}
-           transition={{duration:0.5,delay:1}}
+           transition={{duration:0.5,delay:1.3}}
            className="btn border-0 text-white bg-purple-500 hover:bg-purple-700" href={Resume} download={Resume}>Resume</motion.a>
           </div>
         </div>

@@ -7,7 +7,7 @@ const About = () => {
       <motion.h2 
       initial={{ x: -100, opacity:0 }} 
       animate={{ x:0, opacity:1}}
-      transition={{duration:0.5,delay:1}}
+      transition={{duration:0.5,delay:0}}
       className=" text-center pt-6 md:text-6xl text-3xl">About 
       <span className="text-neutral-500">Me</span></motion.h2>
 
@@ -15,16 +15,18 @@ const About = () => {
         <div className="hero-content flex-col lg:flex-row">
           <div className="md:flex-1 md:mr-10 md:w-[400px]">
             <motion.img 
+            whileInView={{opacity:1,x:0}}
             initial={{ x: -100, opacity:0 }} 
-            animate={{ x:0, opacity:1}}
-            transition={{duration:0.5,delay:1}}
+            animate={{ x:0, opacity:0.5}}
+            transition={{duration:0.5,}}
             src={girl} className=" rounded-lg shadow-2xl w-full " />
           </div>
           <div className="md:flex-1">
             <motion.p
+            whileInView={{opacity:1,x:0}}
             initial={{ x: 100, opacity:0 }} 
             animate={{ x:0, opacity:1}}
-            transition={{duration:0.5,delay:1}}
+            transition={{duration:0.5,}}
             className="py-6   ">
               Hi, I’m Jannatun Fima, a Junior Frontend Developer with a passion
               for creating visually appealing and user-friendly websites. My

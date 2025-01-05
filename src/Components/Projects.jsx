@@ -16,7 +16,11 @@ const Projects = () => {
     return (
         <div className="bg-gray-950 ">
             <div className="w-11/12 mx-auto">
-            <h1 className="md:text-5xl text-3xl font-semibold text-center text-white pt-14">Projects</h1>
+            <motion.h1
+            whileInView={{opacity:1,y:0}}
+            initial={{opacity:0, y: -100 }}
+            transition={{duration:1.5}}
+            className="md:text-5xl text-3xl font-semibold text-center text-white pt-14">Projects</motion.h1>
 
             <div className="grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-3 py-16">
                 {

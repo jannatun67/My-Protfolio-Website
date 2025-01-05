@@ -28,28 +28,48 @@ const Contact = () => {
         <motion.h2 
         initial={{ x: -100, opacity:0 }} 
         animate={{ x:0, opacity:1}}
-        transition={{duration:0.5,delay:1}}
+        transition={{duration:0.5,delay:0.5}}
         className="text-3xl font-bold">Contact Me</motion.h2>
-        <motion.p className="text-gray-400">I'd really love to hear your feedback</motion.p>
+        <motion.p 
+        initial={{ x: -100, opacity:0 }} 
+        animate={{ x:0, opacity:1}}
+        transition={{duration:0.5,delay:1}}
+        className="text-gray-400">I'd really love to hear your feedback</motion.p>
         <div className="space-y-6">
           {/* Contact Info */}
-          <div className="flex items-center space-x-4">
+          <motion.div
+           initial={{ x: -100, opacity:0 }} 
+           animate={{ x:0, opacity:1}}
+           transition={{duration:0.5,delay:1.2}}
+          className="flex items-center space-x-4">
             <span className="text-xl">📞</span>
             <p>01758759327</p>
-          </div>
-          <div className="flex items-center space-x-4">
+          </motion.div>
+          <motion.div
+           initial={{ x: -100, opacity:0 }} 
+           animate={{ x:0, opacity:1}}
+           transition={{duration:0.5,delay:1.5}}
+          className="flex items-center space-x-4">
             <span className="text-xl">📍</span>
             <p>Dhaka, Bangladesh</p>
-          </div>
-          <div className="flex items-center space-x-4">
+          </motion.div>
+          <motion.div 
+           initial={{ x: -100, opacity:0 }} 
+           animate={{ x:0, opacity:1}}
+           transition={{duration:0.5,delay:2}}
+          className="flex items-center space-x-4">
             <span className="text-xl">📧</span>
             <p>jannatunfima67@gmail.com</p>
-          </div>
+          </motion.div>
         </div>
       </div>
 
       {/* Right Section */}
-      <div className="flex-1 bg-gray-800 p-8 rounded-lg shadow-lg">
+      <motion.div
+       initial={{ x: -100, opacity:0 }} 
+       animate={{ x:0, opacity:1}}
+       transition={{duration:0.5,delay:1}}
+      className="flex-1 bg-gray-800 p-8 rounded-lg shadow-lg">
         <form ref={from}  onSubmit={sendEmail} className="space-y-6">
           {/* Name, Email, Phone */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -98,7 +118,8 @@ const Contact = () => {
             Send
           </button>
         </form>
-      </div>
+      </motion.div>
+
     </div>
   );
 };

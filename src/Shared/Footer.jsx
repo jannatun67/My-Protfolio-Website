@@ -1,11 +1,15 @@
-import React from "react";
+import { motion } from "motion/react"
 
 const Footer = () => {
   return (
     <div>
       <footer className="footer footer-center bg-gray-900 text-white  rounded p-10">
         <nav className="grid grid-flow-col gap-4">
-         <a className='bg-gradient-to-r to-purple-800  via-slate-400  from-pink-300 bg-clip-text tracking-tight text-transparent md:text-4xl text-2xl md:mt-8 mt-5' href="">Jannatun Fima</a>
+         <motion.a
+          initial={{y:-10}}
+          animate={{y:[11,-11]}}
+          transition={{  ease:"linear", repeat:Infinity, repeatType:"reverse", duration:2.5 }}
+         className='bg-gradient-to-r to-purple-800  via-slate-400  from-pink-300 bg-clip-text tracking-tight text-transparent md:text-4xl text-2xl md:mt-8 mt-5' href="">Jannatun Fima</motion.a>
         </nav>
         <nav>
           <div className="grid grid-flow-col gap-4">

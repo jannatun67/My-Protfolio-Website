@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Resume from "../assets/Skills/Untitled document.pdf"
+import JF from "../assets/Skills/JF.png"
 
 const Navbar = () => {
     
@@ -47,7 +48,7 @@ const Navbar = () => {
             </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-2xl">JF</a>
+          <a ><img className="w-[70px] rounded-full" src={JF} alt="" /></a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
