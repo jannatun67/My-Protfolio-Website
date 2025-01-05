@@ -1,0 +1,31 @@
+[
+    {
+      
+      "name": "Gaming Website",
+      "image": "https://i.ibb.co.com/JQLCnX3/Screenshot-10.png",
+      "mainTechStack": ["React", "Node.js", "MongoDB"],
+      "Description": "A one-stop destination for gamers to explore, review, and play the latest games.",
+      "liveLink": "https://chill-gamer-a067b.web.app",
+      "githubLink": "https://github.com/jannatun67/Chill-Gamer.git"
+    },
+    {
+     
+      "name": "Peddy website",
+      "image": "https://i.ibb.co.com/s1K7wrv/Screenshot-12.png",
+      "mainTechStack": ["React", "Node.js", "MongoDB"],
+      "Description": "Your one-stop solution for pet care, including services, products, and expert advice.",
+      "liveLink": "https://boiling-bat.surge.sh/ ",
+      "githubLink": "https://github.com/jannatun67/Peddy-website.git"
+    },
+    {
+     
+      "name": "Gadget Heaven",
+      "image": "https://i.ibb.co.com/G33q0L2/Screenshot-11.png",
+      "mainTechStack": ["React", "Node.js", "MongoDB"],
+      "Description": "A web-based application to manage tasks efficiently with real-time updates.",
+      "liveLink": "https://optimal-skate.surge.sh/",
+      "githubLink": "https://github.com/jannatun67/Gadget-Heaven.git"
+     
+    }
+  ]
+  
