@@ -7,7 +7,7 @@ const Projects = () => {
     const [projects, setProjects]= useState([])
     // console.log(projects);
     useEffect(()=>{
-        axios.get("http://localhost:5000/portfolio")
+        axios.get("https://protfolio-server-ccg8.onrender.com/portfolio")
         .then(res=>{
             setProjects(res.data)
         })
