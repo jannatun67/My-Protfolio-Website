@@ -16,10 +16,13 @@ const ProjectDetails = () => {
     <div className="flex justify-center py-10">
       <div className="card bg-base-100 w-96 shadow-xl">
         <figure>
-          <img
+         <div>
+         <img
             src={project?.image}
             alt="Shoes"
+           
           />
+         </div>
         </figure>
         <div className="card-body">
           <h2 className="card-title">

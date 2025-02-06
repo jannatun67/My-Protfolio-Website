@@ -7,7 +7,7 @@ import { motion } from "motion/react"
 
 const Skills = () => {
   return (
-    <div className="bg-gray-950 ">
+    <div id="skill" className="bg-gray-950 ">
       <div className="w-11/12 mx-auto">
         <motion.h1
         whileInView={{opacity:1,y:0}}

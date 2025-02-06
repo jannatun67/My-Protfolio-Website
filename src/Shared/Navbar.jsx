@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Resume from "../assets/Skills/Untitled document.pdf"
 import JF from "../assets/Skills/JF.png"
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Navbar = () => {
     
@@ -32,19 +33,19 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content bg-black text-white rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
               <li>
-              <Link>Home</Link>
+              <Link >Home</Link>
               </li>
               <li>
-              <Link>About Us</Link>
+              <Link to="#about">About Us</Link>
               </li>
               <li>
-              <Link>Skills</Link>
+              <Link to="#skill">Skills</Link>
               </li>
               <li>
-              <Link>Project</Link>
+              <Link to="#project">Project</Link>
             </li>
             <li>
-              <Link>Contact US</Link>
+            <Link to="#contact">Contact US</Link>
             </li>
             </ul>
           </div>
@@ -56,16 +57,16 @@ const Navbar = () => {
               <Link to='/'>Home</Link>
             </li>
             <li>
-             <Link >About Us</Link>
+            <Link to="#about">About Us</Link>
             </li>
             <li>
-              <Link>Skills</Link>
+              <Link to="#skill">Skills</Link>
             </li>
             <li>
-              <Link>Project</Link>
+            <Link to="#project">Project</Link>
             </li>
             <li>
-              <Link>Contact US</Link>
+              <Link to="#contact">Contact US</Link>
             </li>
           </ul>
         </div>

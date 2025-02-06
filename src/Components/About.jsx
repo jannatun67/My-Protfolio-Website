@@ -3,7 +3,7 @@ import { motion } from "motion/react"
 
 const About = () => {
   return (
-    <div className="bg-gray-950 text-white">
+    <section id="about" className="bg-gray-950 text-white">
       <motion.h2 
       initial={{ x: -100, opacity:0 }} 
       animate={{ x:0, opacity:1}}
@@ -45,7 +45,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

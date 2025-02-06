@@ -14,7 +14,7 @@ const Projects = () => {
     },[])
 
     return (
-        <div className="bg-gray-950 ">
+        <div to="project" className="bg-gray-950 ">
             <div className="w-11/12 mx-auto">
             <motion.h1
             whileInView={{opacity:1,y:0}}
@@ -39,7 +39,7 @@ const Projects = () => {
                           <h2 className="card-title">{project?.name}</h2>
                           <p>{project?.Description}</p>
                           <div className="card-actions">
-                            <Link  to={`/projectDetails/${project?._id}`} className="btn bg-purple-600 hover:bg-purple-800 text-white">Details</Link>
+                            <Link  to={`/projectDetails/${project?._id}`} className="btn bg-purple-600 hover:bg-purple-800 text-white w-[250px]">Details</Link>
                           </div>
                         </div>
                       </motion.div>)

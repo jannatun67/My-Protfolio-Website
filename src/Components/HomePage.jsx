@@ -58,7 +58,7 @@ const HomePage = () => {
       </div>
 
       <div>
-        <About id="about"></About>
+        <About></About>
         <Skills></Skills>
         <Projects></Projects>
         <Contact></Contact>

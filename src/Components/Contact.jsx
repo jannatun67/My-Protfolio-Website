@@ -22,7 +22,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row bg-gray-900 text-white p-8 lg:p-16 gap-8">
+    <div id="contact" className="flex flex-col lg:flex-row bg-gray-900 text-white p-8 lg:p-16 gap-8">
       {/* Left Section */}
       <div className="flex-1 space-y-4">
         <motion.h2 
